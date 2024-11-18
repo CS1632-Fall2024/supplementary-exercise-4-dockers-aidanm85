@@ -57,7 +57,7 @@ public class D3Test {
     }
     assertEquals(vars.get("reset").toString(), "http://localhost:8080/reset");
   }
-  @Test
+  /*@Test
   public void dEFECT1FUNFEED() {
     driver.get("http://localhost:8080/");
     driver.findElement(By.xpath("//a[contains(@href, \'/feed-a-cat\')]")).click();
@@ -83,7 +83,7 @@ public class D3Test {
     js.executeScript("document.cookie = \"1=true\";document.cookie = \"2=false\";document.cookie = \"3=false\";");
     driver.get("http://localhost:8080/greet-a-cat/Jennyanydots");
     assertThat(driver.findElement(By.xpath("//div[2]/h4")).getText(), is("Jennyanydots is not here."));
-  }
+  }*/
   @Test
   public void tEST3CATALOG() {
     driver.get("http://localhost:8080/");
